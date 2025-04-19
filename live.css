@@ -1,0 +1,236 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: "Hum 521 Rm", sans-serif; 
+}
+.livebranches{
+    display: flex;
+    background-image: url(images/ankolegrill_1.jpeg);
+    background-repeat: repeat-y;
+    background-size: contain;
+   background-color: rgba(0,0, 0, 0.7);
+   background-blend-mode: darken;
+   /* overflow: auto; */
+   height: 300vh;
+  
+}
+.livebranch{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    /* margin-top: 20%; */
+   /* align-items: center; */
+}
+.live-branch{
+   width: 50%; 
+}
+.fadhile:hover,.them-mushrooms:hover,.jack-muguna:hover,.koko-kebaso:hover,.akoth-jumadi:hover,.muhonja:hover,.coster-ojwang:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.fadhile,.them-mushrooms,.jack-muguna,.koko-kebaso,.akoth-jumadi,.muhonja,.coster-ojwang{
+    display: flex;
+
+}
+.fadhile img{
+    margin-top: 2%;
+}
+.fadhile img,.them-mushrooms img,.jack-muguna img{
+    width: 105%;
+    height:35vh;
+    margin-bottom: 12%;
+}
+/* .jack-muguna img{
+    width: 103%;
+    height: 35vh;
+    margin-bottom: 6%;
+} */
+/* .them-mushrooms img{
+    width: 30%;
+} */
+.koko-kebaso img,.akoth-jumadi img,.muhonja img,.coster-ojwang img{
+    width: 40%;
+    height: 35vh;
+    margin-bottom: 12%;
+}
+/* .fadhile .live, .them-mushrooms .live, .jack-muguna .live{
+    margin-left: 10%;
+} */
+.nav{
+    position: fixed;
+    bottom: 7%;
+    background-color: rgb(20, 19, 19);
+    padding: 23px 12px 12px 23px;
+    border-radius: 32px 32px 32px 32px;
+    display: flex;
+    justify-content: space-around;
+    gap: 0.8cm;
+   
+    
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+
+}
+button{
+    padding: 12px;
+    margin-top:-8px;
+    border-radius:20px ;
+    background-color: rgb(78, 77, 77);
+    border-color: transparent;
+    color: white;
+}
+button:hover{
+    color:  rgb(78, 77, 77);
+    background-color: antiquewhite;
+}
+.material-icons{
+    margin-top: -2px;
+    font-size:24px;
+     color: white;
+    }
+    .fa-bars{
+        font-size:24px;
+        color: white;
+    }
+.livebranch img{
+    /* position: absolute; */
+    position: fixed;
+    top: 6%;
+    left: 18%;
+    width: 12%;
+}
+.livebranch p{
+    /* margin-top: -4%; */
+    margin-top: 20%;
+    position: fixed;
+    color: white;
+    font-size: 0.3in;
+    font-weight: 400;
+
+}
+.livebranch h3{
+    position:fixed;
+    margin-top: 23%;
+    color: orangered;
+    font-size: 0.7in;
+    font-weight: 400;
+}
+ /* .fadhile .live{
+    margin-left: -20%;
+}  */
+  .live{
+   margin-left: 10%;
+    margin-top: 14%;
+} 
+.live > p{
+    color: orangered;
+}
+.live h4{
+    color: white;
+} 
+a{
+    text-decoration: none;
+    color: white;
+}
+.fa-whatsapp{
+    color:white;
+    position: fixed;
+    border: 1px solid;
+    padding: 14px;
+    background-color: rgb(15, 14, 14);
+    border-radius: 37px;
+    bottom: 7%;
+    right: 5%;
+}
+@media screen and (min-width: 320px) and (max-width: 857px){
+    .livebranches{
+        display: block;
+        padding-left: 12%;
+        height: 480vh;
+        font-size: 1.2em;
+    }
+    #home, #menu, #review, #event, #live, #contact{
+        display: none;
+    }
+    .fadhile img,.them-mushrooms img,.jack-muguna img{
+        width: 175%;
+        height:35vh;
+        margin-bottom: 12%;
+    }
+    .koko-kebaso img,.akoth-jumadi img,.muhonja img,.coster-ojwang img{
+        width: 180%;
+        height: 35vh;
+        margin-bottom: 12%;
+    }
+    .fadhile,.them-mushrooms,.jack-muguna,.koko-kebaso,.akoth-jumadi,.muhonja,.coster-ojwang{
+        display: block;
+        /* height: 400vh; */
+    }
+    .fadhile img{
+        margin-top: 202%;
+    }
+    .livebranch img{
+        position: absolute;
+        /* position: fixed; */
+        top: 6%;
+        left: 18%;
+        width: 52%;
+    }
+    .livebranch p{
+        /* margin-top: -4%; */
+        margin-top: 39%;
+        position: absolute;
+        color: white;
+        font-size: 0.3in;
+        font-weight: 400;
+        margin-left: 23%;
+    }
+    .livebranch h3{
+        position:absolute;
+        margin-top: 46%;
+        color: orangered;
+        font-size: 0.7in;
+        font-weight: 400;
+        margin-left: 23%;
+        /* margin-bottom: 12%; */
+    }
+    .fa-facebook{
+        color:white;
+        position: fixed;
+        border: 1px solid;
+        padding: 10px;
+        background-color: rgb(15, 14, 14);
+        border-radius: 50px;
+        top: 2.5cm;
+        right: 3%;
+        opacity: 50%;
+        
+    }
+    .fa-instagram{
+        color:white;
+        position: fixed;
+        border: 1px solid;
+        padding: 10px;
+        background-color: rgb(15, 14, 14);
+        border-radius: 50px;
+        top: 1cm;
+        right: 3%;
+        opacity: 50%;
+    }
+
+}
+@media screen and (min-width:820px) and (max-width:1200px){
+    #home, #menu, #review, #event, #live, #contact{
+        display: contents;
+    }
+    .nav{
+        margin-left: 6cm;
+        width: 75%;
+        gap: 0.4cm;
+    }
+}
+    
+

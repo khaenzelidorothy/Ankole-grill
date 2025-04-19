@@ -1,0 +1,183 @@
+body{
+    font-family: "Hum 521 Rm", sans-serif;
+}
+
+.coffee-type{
+    display: flex;
+    gap: 62%;
+}
+.soups{
+    display: flex;
+    gap: 42%;
+}
+.juices{
+    display: flex;
+    gap: 62%;
+}
+/* .typefood{
+   display: flex;
+
+} */
+ul{
+    list-style: none;
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 2cm;
+}
+.drink-type{
+    color: rgb(221, 73, 19);
+}
+.foodtypes{
+    background-image: url();
+    background-color: rgb(15, 15, 15);
+    color: white;
+    width: 50%;
+    padding-left: 4%;
+    overflow: auto;
+    height: 100vh;
+}
+.extras{
+    display: flex;
+    gap: 62%;
+}
+.kitisuru-menu{
+    display: flex;
+    flex: 1;
+    height: 100vh;
+
+}
+.menu-background{
+    background-image:url(images/kitsmat.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 120%;
+    width: 50%;
+    place-items: center;
+    padding-top: 22%;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: darken;
+
+}
+.menu-background h2{
+    color: orangered;
+    font-size: 0.4in;
+}
+.menu-background img{
+        position: absolute;
+        top: 6%;
+        left: 18%;
+        width: 12%;
+    }
+    .navbar{
+        position: absolute;
+        bottom: 7%;
+        
+        background-color: rgb(20, 19, 19);
+        padding: 23px 12px 12px 23px;
+        border-radius: 32px 32px 32px 32px;
+        display: flex;
+        justify-content: space-around;
+        gap: 1.2cm;
+       
+        
+    }
+    .navbar a{
+        text-decoration: none;
+        color: white;
+    
+    }
+    button{
+        padding: 12px;
+        margin-top:-8px;
+        border-radius:20px ;
+        background-color: rgb(78, 77, 77);
+        border-color: transparent;
+        color: white;
+    }
+    button:hover{
+        color:  rgb(78, 77, 77);
+        background-color: antiquewhite;
+    }
+.material-icons{
+    margin-top: -2px;
+    font-size:24px;
+     color: white;
+    }
+    .fa-bars{
+        font-size:24px;
+        color: white;
+    }
+    .fa-whatsapp{
+        color:white;
+        position: absolute;
+        border: 1px solid;
+        padding: 14px;
+        background-color: rgb(15, 14, 14);
+        border-radius: 37px;
+        bottom: 7%;
+        right: 5%;
+    }
+    @media screen and (min-width: 320px) and (max-width: 857px){
+        body{
+           /* width: 100%; */
+           font-size: 0.8em;
+           overflow-x: hidden;
+       } 
+       
+       .menu-background img{
+           position: absolute;
+           top: 6%;
+           left: 30%;
+           width: 42%;
+       }
+       .kitisuru-menu{
+           display: block;
+           flex: 1;
+           height: 100vh;
+       
+       }
+       .foodtypes{
+           width: 100%;
+       }
+       .menu-background{
+           width: 110%;
+           height: 40vh;
+           padding-top: 52%;
+       }
+       #home, #menu, #review, #event, #live, #contact{
+           display: none;
+       }
+       ul{
+           gap: 0.2cm;
+           font-size: 0.8em;
+       }
+       .coffee-type{
+           display: flex;
+           gap: 32%;
+       }
+       .soups{
+           display: flex;
+           gap: 20%;
+       }
+       .juices{
+           display: flex;
+           gap: 32%;
+       }
+       .extras{
+           display: flex;
+           gap: 32%;
+       }
+       .navbar{
+           position: fixed;
+           bottom: 7%;
+           
+           background-color: rgb(20, 19, 19);
+           padding: 23px 12px 12px 23px;
+           border-radius: 32px 32px 32px 32px;
+           display: flex;
+           justify-content: space-around;
+           gap: 1.2cm;
+          
+           
+       }
+    }

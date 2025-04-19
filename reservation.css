@@ -1,0 +1,294 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+    font-family: "Hum 521 Rm", sans-serif;
+}
+
+.reservation{
+    display: flex;
+}
+.karibu img{
+        position: absolute;
+        top: 6%;
+        left: 18%;
+        width: 12%;
+    
+  
+}
+.form{
+    width: 45%;
+    background-color: rgb(14, 13, 13);
+    height: 100vh;
+    padding-left: 5%;
+    padding-top: 3%;
+    color: white;
+   
+}
+.karibu{
+    background-image: url(images/tropical-watercolor-plants-background-jungle-rainforest-leaves-wallpaper-generative-ai_691560-9096.avif);
+    background-size: cover;
+    background-color: rgba(0,0,0,0.7);
+    background-blend-mode: darken;
+    width: 50%;
+    place-items: center;
+    padding-top: 25%;
+   
+}
+.karibu p{
+    color: white;
+    font-size: 30px;
+}
+.karibu h2{
+    color: orangered;
+    font-size: 0.4in;
+}
+#inputs{
+    padding: 13px 23px;
+    width: 80%;
+    background-color: transparent;
+    color: gray;
+}
+#input{
+    padding: 13px 23px;
+    width: 86%;
+    background-color: transparent;
+    color: gray;
+}
+.submit{
+    padding: 23px 23px;
+    width: 87%;
+    border-radius: 22px;
+    border-color: transparent;
+}
+.navbars{
+        position: absolute;
+        bottom: 3%;
+        right: 29%;
+        background-color: rgb(20, 19, 19);
+        padding: 23px 12px 12px 23px;
+        border-radius: 32px 32px 32px 32px;
+        display: flex;
+        justify-content: space-around;
+        gap: 0.8cm;
+    }
+    .navbars a{
+        text-decoration: none;
+        color: white;
+    
+    }
+    button{
+        padding: 12px;
+        margin-top:-8px;
+        border-radius:20px ;
+        background-color: rgb(78, 77, 77);
+        border-color: transparent;
+        color: white;
+    }
+    button:hover{
+        color:  rgb(78, 77, 77);
+        background-color: antiquewhite;
+    }
+.material-icons{
+    margin-top: -2px;
+    font-size:24px;
+     color: white;
+    }
+    .fa-bars{
+        font-size:24px;
+        color: white;
+    }
+    .fa-whatsapp{
+        color:white;
+        position: fixed;
+        border: 1px solid;
+        padding: 14px;
+        background-color: rgb(15, 14, 14);
+        border-radius: 37px;
+        bottom: 5%;
+        right: 4%;
+    }
+    @media screen and (min-width: 320px) and (max-width: 857px){
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            /* overflow: hidden; */
+            font-family: "Hum 521 Rm", sans-serif;
+            margin: 0%;
+            padding: 0%;
+            /* position: relative; */
+        }
+        
+        .reservation{
+            display: block;
+            /* margin-bottom: 5%; */
+        }
+        .karibu img{
+                position: absolute;
+                top: 6%;
+                left: 31%;
+                width: 42%;
+            
+          
+        }
+        .form{
+            width: 100%;
+            background-color: rgb(14, 13, 13);
+            height: 120vh;
+            padding-left: 5%;
+            color: white;
+           
+        }
+        .karibu{
+            background-image: url(images/tropical-watercolor-plants-background-jungle-rainforest-leaves-wallpaper-generative-ai_691560-9096.avif);
+            background-size: cover;
+            background-color: rgba(0,0,0,0.7);
+            background-blend-mode: darken;
+            width: 100%;
+            place-items: center;
+            padding-top: 25%;
+            height: 50vh;
+           
+        }
+        .karibu p{
+            color: white;
+            font-size: 30px;
+        }
+        .karibu h2{
+            color: orangered;
+            font-size: 0.4in;
+        }
+        #inputs{
+            padding: 13px 23px;
+            width: 85%;
+            background-color: transparent;
+            color: gray;
+        }
+        #input{
+            padding: 13px 23px;
+            width: 86%;
+            background-color: transparent;
+            color: gray;
+        }
+        .submit{
+            padding: 23px 23px;
+            width: 87%;
+            border-radius: 22px;
+            border-color: transparent;
+        }
+        .navbars{
+                position: absolute; 
+                bottom: -68%;
+                 /* bottom: 3%; */
+                /* top: 0%;
+                right: 9%; */
+                background-color: rgb(20, 19, 19);
+                /* padding: 23px 12px 12px 23px;
+                border-radius: 32px 32px 32px 32px; */
+                /* display: flex; */
+                /* flex-direction: column; */
+                /* justify-content: space-around; */
+                /* gap: 0.3cm; */
+            }
+            .navbars a{
+                text-decoration: none;
+                color: white;
+            
+            }
+            button{
+                padding: 12px;
+                margin-top:-8px;
+                border-radius:20px ;
+                background-color: rgb(78, 77, 77);
+                border-color: transparent;
+                color: white;
+            }
+            button:hover{
+                color:  rgb(78, 77, 77);
+                background-color: antiquewhite;
+            }
+        .material-icons{
+            margin-top: -2px;
+            font-size:24px;
+             color: white;
+            }
+            .fa-bars{
+                font-size:24px;
+                color: white;
+            }
+            .fa-whatsapp{
+                color:white;
+                position: fixed;
+                border: 1px solid;
+                padding: 14px;
+                background-color: rgb(15, 14, 14);
+                border-radius: 37px;
+                bottom: 5%;
+                right: 4%;
+            }
+            #home, #menu, #review, #event, #live, #contact{
+                display: none;
+            }
+            .fa-facebook{
+                color:white;
+                position: fixed;
+                border: 1px solid;
+                padding: 10px;
+                background-color: rgb(15, 14, 14);
+                border-radius: 50px;
+                top: 2.5cm;
+                right: 3%;
+                opacity: 50%;
+                
+            }
+            .fa-instagram{
+                color:white;
+                position: fixed;
+                border: 1px solid;
+                padding: 10px;
+                background-color: rgb(15, 14, 14);
+                border-radius: 50px;
+                top: 1cm;
+                right: 3%;
+                opacity: 50%;
+            }
+    }
+    @media screen and (min-width: 820px) and (max-width: 1200px){
+        body{
+            margin: 0%;
+        }
+      #inputs{
+        width: 95%;
+      }
+      #input{
+        width: 95%;
+      }
+      .submit{
+        padding: 23px 23px;
+        width: 97%;
+        border-radius: 22px;
+        border-color: transparent;
+    }
+    .form{
+        width: 100%;
+        background-color: rgb(14, 13, 13);
+        height: 90vh;
+        padding-left: 5%;
+        color: white;
+       
+    }
+    .karibu{
+        height: 70vh;
+    }
+    #home, #menu, #review, #event, #live, #contact{
+        display: contents;
+    }
+    .navbars{
+        position: absolute; 
+        bottom: -58%;
+       
+    }
+   
+    }
